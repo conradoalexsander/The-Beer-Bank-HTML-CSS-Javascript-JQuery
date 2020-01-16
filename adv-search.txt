@@ -1,0 +1,112 @@
+//teste busca avançada
+    // by Max IBU
+    $("#findMaxIBU").keyup(() => {
+        let link;
+        if ($("#findMaxIBU").val() == "") {
+            link = "https://api.punkapi.com/v2/beers?ibu_lt";
+        }
+        else {
+            link = "https://api.punkapi.com/v2/beers?per_page=80&beer_name=" + $("#findMaxIBU").val();
+        }
+        $('#card').empty();
+        xhttp.open("GET", link, true);
+        xhttp.send();
+    })
+
+    // by Min IBU
+    $("#findMinIBU").keyup(() => {
+        let link;
+        if ($("#findMinIBU").val() == "") {
+            link = "https://api.punkapi.com/v2/beers?ibu_gt";
+        }
+        else {
+            link = "https://api.punkapi.com/v2/beers?per_page=80&beer_name=" + $("#findMinIBU").val();
+        }
+        $('#card').empty();
+        xhttp.open("GET", link, true);
+        xhttp.send();
+    })
+
+    // by Max ABV
+    $("#findMaxABV").keyup(() => {
+        let link;
+        if ($("#findMaxABV").val() == "") {
+            link = "https://api.punkapi.com/v2/beers?abv_lt";
+        }
+        else {
+            link = "https://api.punkapi.com/v2/beers?per_page=80&beer_name=" + $("#findMaxABV").val();
+        }
+        $('#card').empty();
+        xhttp.open("GET", link, true);
+        xhttp.send();
+    })
+
+    // by Min ABV
+    $("#findMinABV").keyup(() => {
+        let link;
+        if ($("#findMinABV").val() == "") {
+            link = "https://api.punkapi.com/v2/beers?abv_gt";
+        }
+        else {
+            link = "https://api.punkapi.com/v2/beers?per_page=80&beer_name=" + $("#findMinABV").val();
+        }
+        $('#card').empty();
+        xhttp.open("GET", link, true);
+        xhttp.send();
+    })
+
+    // by Max EBC
+    $("#findMaxEBC").keyup(() => {
+        let link;
+        if ($("#findMaxEBC").val() == "") {
+            link = "https://api.punkapi.com/v2/beers?ebc_lt";
+        }
+        else {
+            link = "https://api.punkapi.com/v2/beers?per_page=80&beer_name=" + $("#findMaxEBC").val();
+        }
+        $('#card').empty();
+        xhttp.open("GET", link, true);
+        xhttp.send();
+    })
+
+    // by Min EBC
+    $("#findMinEBC").keyup(() => {
+        let link;
+        if ($("#findMinEBC").val() == "") {
+            link = "https://api.punkapi.com/v2/beers?ebc_gt";
+        }
+        else {
+            link = "https://api.punkapi.com/v2/beers?per_page=80&beer_name=" + $("#findMinEBC").val();
+        }
+        $('#card').empty();
+        xhttp.open("GET", link, true);
+        xhttp.send();
+    })
+
+    // by Brewed before
+    $("#findBrewedBefore").keyup(() => {
+        let link;
+        if ($("#findBrewedBefore").val() == "") {
+            link = "https://api.punkapi.com/v2/beers?brewed_before";
+        }
+        else {
+            link = "https://api.punkapi.com/v2/beers?per_page=80&beer_name=" + $("#findBrewedBefore").val();
+        }
+        $('#card').empty();
+        xhttp.open("GET", link, true);
+        xhttp.send();
+    })
+
+    // by Brewed after
+    $("#findBrewedAfter").keyup(() => {
+        let link;
+        if ($("#findBrewedAfter").val() == "") {
+            link = "https://api.punkapi.com/v2/beers?brewed_after";
+        }
+        else {
+            link = "https://api.punkapi.com/v2/beers?per_page=80&beer_name=" + $("#findBrewedAfter").val();
+        }
+        $('#card').empty();
+        xhttp.open("GET", link, true);
+        xhttp.send();
+    })

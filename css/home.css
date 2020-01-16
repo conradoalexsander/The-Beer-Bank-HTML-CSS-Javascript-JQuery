@@ -1,0 +1,278 @@
+h6{
+  font-weight: bold;
+}
+header {
+  background-color: orange;
+  color: white;
+  padding-top: 50px;
+}
+
+header ul {
+  background-color: orange;
+}
+
+header a:link {
+  color: white;
+  transition: 0.5s;
+}
+
+header a:visited {
+  color: white;
+  transition: 0.5s;
+}
+
+header a:hover {
+  transition: 0.5s;
+  transform: scale(1.1);
+}
+
+#find{
+  width: 300px;
+}
+
+#card .card-img-top {
+  object-fit: scale-down;
+  height: 200px;
+  padding: 20px;
+}
+
+.card {
+  
+  box-shadow: 0px 0px 10px 1px #888888;
+  transition: 1s;
+}
+
+.card-header{
+  border: 0px solid rgba(0, 0, 0, 0) !important;
+}
+
+.card:hover {
+  transition: 1s;
+  transform: scale(1.1);
+}
+
+#page {
+  margin-top: 15px;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* CONRADO ADDs */
+
+#ibuAbvEbc {
+  margin-bottom: 10px;
+}
+
+/*-----------------------------*/
+
+/* The Modal (background) */
+
+.modal {
+  display: none;
+  /* Hidden by default */
+  position: relative;
+  /* Stay in place */
+  z-index: 1;
+  /* Sit on top */
+  padding-top: 1px;
+  /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%;
+  /* Full width */
+  height: 100%;
+  /* Full height */
+  overflow: auto;
+  /* Enable scroll if needed */
+  background-color: rgb(0, 0, 0);
+  /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.4);
+  /* Black w/ opacity */
+}
+
+.modal-dialog{
+  margin-left: 300px !important;
+}
+/* Container Grid*/
+
+#container {
+  display: grid;
+  grid-template-columns: 30% 70%;
+  grid-template-rows: 500px;
+  grid-template-areas: 'a' 'b';
+  grid-gap: 15px;
+  color: rgb(125, 126, 133);
+}
+
+/* Figura */
+
+#blocoImgCerva{
+  text-align: center;
+  align-content: center;
+  vertical-align: middle;
+  display: inline-block;
+  height: 100%;
+}
+#cerveja {
+  width: 60%;
+  height: 100%;
+}
+
+/*Texto */
+
+#container2 p {
+  text-align: justify;
+}
+
+/* Modal Content */
+
+.modal-content {
+  background-color: #fefefe;
+  margin: auto;
+  padding: 15px !important;
+  border: 1px solid #888;
+  width: 800px !important;
+  height: 100%;
+}
+.modal-header{
+  border: 0px solid rgba(0, 0, 0, 0) !important;
+  padding: 0px !important;
+  height: 30px !important;
+}
+/* Estilos Modal */
+
+#modalName {
+  color: orange;
+}
+
+#modalTagline {
+  color: rgb(173, 173, 173);
+}
+
+#modalDescription {
+  color: rgb(125, 126, 133);
+}
+
+#beerInfo {
+  font-weight: bold;
+}
+
+#underline {
+  height: 5px;
+  width: 80px;
+  margin: 20px 0px;
+  background-color: rgb(174, 62, 153);
+}
+
+/* Estilo li e a*/
+
+.conteiner li {
+  padding: 2px;
+  padding-top: 0;
+  padding-right: 0 auto;
+  color: black;
+}
+
+.conteiner a {
+  text-decoration: none;
+  font-family: Arial;
+  font-size: 14px;
+  text-align: right;
+  letter-spacing: 0;
+  color: black;
+}
+
+/* The Close Button */
+
+.close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover, .close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* Cards */
+
+* {
+  box-sizing: border-box;
+}
+
+/* Float four columns side by side */
+
+.column {
+  float: left;
+  width: 33%;
+  height: 40%;
+}
+
+/* Remove extra left and right margins, due to padding */
+
+.row {
+  margin: 0 -5px;
+}
+
+/* Clear floats after the columns */
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive columns */
+
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 10px;
+  }
+}
+
+/* Style the counter cards */
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 5px;
+  text-align: center;
+  background-color: #f1f1f1;
+  border-color: gray;
+  height: 200px;
+}
+
+/* RANDOM CARDS */
+
+#youLike h3{
+  color: orange;
+}
+
+#randCard {
+  width: 85%;
+  height: 350px;
+  padding: 20px;
+  align-content: center;
+}
+
+#randBeerImage {
+  margin: auto;
+  width: 45%;
+  height: 80%;
+}
+
+#randName {
+  font-size: 15px;
+  text-align: center;
+  font-weight: bold;
+  color: rgb(125, 126, 133);
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  padding: 5px;
+}

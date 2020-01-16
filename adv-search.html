@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/home.css">
+    <link rel="stylesheet" href="css/advSearch.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <title>The Beer Bank - Advanced search</title>
+</head>
+
+<body>
+
+    <!-- Cabeçalho e Seção de Pesquisa -->
+    <header>
+        <div class="container">
+            <ul class="nav justify-content-end fixed-top">
+                <li class="nav-item">
+                    <a class="nav-link" href="./index.html" id="home">Home</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="./adv-search.html" id="adv-search">Advanced Search</a>
+                </li>
+                
+                <li class="nav-item">
+                    <a class="nav-link" href="#" id="favourite">Favourite</a>
+                </li>
+            </ul>
+            <div class="d-flex justify-content-center">
+                <h1>The Beer Bank</h1>
+            </div>
+            <div class="d-flex justify-content-center">
+                <p>Advanced search</p>
+            </div>
+        </div>
+
+        <div class="container">
+            <h3>Search by:</h3>
+
+            <div class="d-flex flex-row justify-content-left">
+                <div class="p-2">
+                    <p>
+                        <h4>Max IBU: </h4><input type="text" name="findMaxIBU" id="findMaxIBU" class="inputs">
+                    </p>
+                </div>
+                <div class="p-2">
+                    <p>
+                        <h4>Min IBU: </h4><input type="text" name="findMinIBU" id="findMinIBU" class="inputs">
+                    </p>
+                </div>
+                <div class="p-2">
+                    <p>
+                        <h4>Max ABV: </h4><input type="text" name="findMaxABV" id="findMaxABV" class="inputs">
+                    </p>
+                </div>
+                <div class="p-2">
+                    <p>
+                        <h4>Min ABV: </h4><input type="text" name="findMinABV" id="findMinABV" class="inputs">
+                    </p>
+                </div>
+                <div class="p-2">
+                    <p>
+                        <h4>Max EBC: </h4><input type="text" name="findMaxEBC" id="findMaxEBC" class="inputs">
+                    </p>
+                </div>
+                <div class="p-2">
+                    <p>
+                        <h4>Min EBC: </h4><input type="text" name="findMinEBC" id="findMinEBC" class="inputs">
+                    </p>
+                </div>
+            </div>
+            <div class="d-flex flex-row justify-content-left">
+                <div>
+                    <h4>Brewed before: </h4>
+                    <input type="number" name="findBrewedBeforeMonth" id="findBrewedBeforeMonth" placeholder="MM"
+                        class="inputs2">
+                    <input type="number" name="findBrewedBeforeYear" id="findBrewedBeforeYear" placeholder="YYYY"
+                        class="inputs2">
+                </div>
+                <div id="brewedAfter">
+                    <h4>Brewed After: </h4>
+                    <input type="number" name="findBrewedAfterMonth" id="findBrewedAfterMonth" placeholder="MM"
+                        class="inputs2">
+                    <input type="number" name="findBrewedAfterYear" id="findBrewedAfterYear" placeholder="YYYY"
+                        class="inputs2">
+                </div>
+            </div>
+            <div class="d-flex justify-content-left">
+                <button class="buttons" id="submit" name="submit">Submit</button>
+            </div>
+        </div>
+
+    </header>
+
+    <section id="beer" class="m-5">
+        <div class='card-deck' id='card'></div>
+    </section>
+
+    <script src="./util/jquery-3-4-1.js"></script>
+    <script src="./util/popper.js"></script>
+    <script src="./util/bootstrap.min.js"></script>
+    <script src="js/home.js"></script>
+</body>
+
+</html>
