@@ -1,6 +1,7 @@
-h6{
+h6 {
   font-weight: bold;
 }
+
 header {
   background-color: orange;
   color: white;
@@ -26,7 +27,7 @@ header a:hover {
   transform: scale(1.1);
 }
 
-#find{
+#find {
   width: 300px;
 }
 
@@ -37,12 +38,11 @@ header a:hover {
 }
 
 .card {
-  
   box-shadow: 0px 0px 10px 1px #888888;
   transition: 1s;
 }
 
-.card-header{
+.card-header {
   border: 0px solid rgba(0, 0, 0, 0) !important;
 }
 
@@ -58,8 +58,6 @@ header a:hover {
 body {
   font-family: Arial, Helvetica, sans-serif;
 }
-
-/* CONRADO ADDs */
 
 #ibuAbvEbc {
   margin-bottom: 10px;
@@ -92,9 +90,10 @@ body {
   /* Black w/ opacity */
 }
 
-.modal-dialog{
+.modal-dialog {
   margin-left: 300px !important;
 }
+
 /* Container Grid*/
 
 #container {
@@ -108,13 +107,14 @@ body {
 
 /* Figura */
 
-#blocoImgCerva{
+#blocoImgCerva {
   text-align: center;
   align-content: center;
   vertical-align: middle;
   display: inline-block;
   height: 100%;
 }
+
 #cerveja {
   width: 60%;
   height: 100%;
@@ -136,11 +136,13 @@ body {
   width: 800px !important;
   height: 100%;
 }
-.modal-header{
+
+.modal-header {
   border: 0px solid rgba(0, 0, 0, 0) !important;
   padding: 0px !important;
   height: 30px !important;
 }
+
 /* Estilos Modal */
 
 #modalName {
@@ -250,7 +252,7 @@ body {
 
 /* RANDOM CARDS */
 
-#youLike h3{
+#youLike h3 {
   color: orange;
 }
 

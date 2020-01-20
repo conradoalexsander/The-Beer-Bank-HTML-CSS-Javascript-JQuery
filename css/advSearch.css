@@ -28,30 +28,6 @@ input[type=text]:focus {
     width: 100px;
 }
 
-/*#findMaxIBU {
-    margin-left: 10px;
-}
-
-#findMinIBU {
-    margin-left: 14px;
-}
-
-#findMaxABV {
-    margin-left: 5px;
-}
-
-#findMinABV {
-    margin-left: 8px;
-}
-
-#findMaxEBC {
-    margin-left: 7px;
-}
-
-#findMinEBC {
-    margin-left: 10px;
-}
-*/
 #brewedAfter {
     margin-left: 10px;
 }
